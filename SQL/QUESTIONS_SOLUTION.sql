@@ -125,7 +125,7 @@ ORDER BY od.OrderID, TotalRevenue DESC;
 
 14. What are the customers, employees, and the total number of orders placed by each customer?
 
-SELECT 
+SELECT  
     c.CustomerID, 
     c.CustomerName, 
     e.EmployeeID, 
